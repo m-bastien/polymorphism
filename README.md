@@ -1,5 +1,5 @@
 # polymorphism
-How to bring back polymorphism to anemic models ? (limiting the use of instanceof instruction and switch statements)
+How to bring polymorphism back to anemic models ? (limiting the use of instanceof instruction and switch statements)
 
 Let say we have two objects dealing with radio networks (`RadioNetwork`,`RestrictedRadioNetwork`) inheriting from `Network. Both have a max number of participant (radios in fact) depending on their features : number of antennas, throughput ... This size has to be computed in a quite common way for those two objects. However, the RestrictedRadioNetwork must not exceed a given size. 
 
